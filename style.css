@@ -1,0 +1,143 @@
+
+@font-face {
+    font-family: Brandon;
+    font-weight: bold;
+    src: url("../assets/fonts/Brandon_txt_bld.otf") format("opentype");
+  }
+@font-face {
+    font-family: "Brandon";
+    font-weight: 600;
+    src: url("../assets/fonts//Brandon_txt_med.otf") format("opentype");
+}
+@font-face {
+    font-family: "Brandon";
+    font-weight: 400;
+    src: url("../assets/fonts/Brandon_txt_reg.otf") format("opentype");
+}
+@font-face {
+    font-family: "Brandon";
+    font-weight: 200;
+    src: url("../assets/fonts//Brandon_txt_light.otf") format("opentype");
+}
+@font-face {
+    font-family: "Brandon";
+    font-weight: 100;
+    src: url("../assets/fonts//Brandon_txt_thin.otf") format("opentype");
+}
+
+.grey_text {
+    color: #505050;
+}
+
+
+body {
+    font-family: Brandon, Arial;   
+    font-size: 10px;
+    line-height: 14px;
+    color: #222222;
+}
+
+.title-section{
+padding-bottom: 4mm;
+border-bottom: 2px solid #E8E8E8;
+}
+
+.title{
+font-size:36px;
+font-weight: 200;
+}
+
+.logo {
+    height: 13mm;
+    position: absolute;
+    top: 10mm;
+    right: 15mm;
+}
+
+.bill-info{
+    white-space: nowrap;
+    padding:2mm 0;
+}
+.bill-info-block {
+    width: 33%;
+    display: inline-block; 
+}
+
+.bill-info-label{
+color:grey;
+}
+.inner-content{
+    margin: 16mm 0 0;
+    width:100%;
+    white-space: nowrap;
+}
+
+.inner-left-content{
+    font-weight: 600;
+    width:75mm;
+    display: inline-block;
+    vertical-align: top;
+    height: 105mm;
+    box-shadow: 0 0 1px 1px #eaeaea;
+}
+
+.inner-right-content {
+    display: inline-block;
+    height: 105mm;
+    width:110mm;
+    background: #D2F3FB;
+    border-left: 8px solid #4DCFF0;
+    margin-left:1mm;
+
+}
+footer{
+    position: absolute;
+    bottom: 10mm;
+    width:190mm;
+}
+
+h3{
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom:2mm;
+    font-weight:400;
+    font-size: 16px;
+}
+
+td{
+font-weight: 600;
+}
+
+.normal_font_weight{
+    font-weight: 400;
+}
+.icon{
+    height: 4mm;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.table-data{
+    width: 188mm;
+    padding: 2mm;
+    border: 1px solid #E8E8E8;
+}
+
+i {
+    font-size: 4mm;
+}
+.secondary-table > tbody> tr > td:first-child {
+    width: 40% !important;
+
+}
+.secondary-table > tbody > tr > td:nth-child(2) {
+    width: 35% !important;
+}
+.secondary-table > tbody > tr > td:nth-child(3) {
+    width: 20% !important;
+}
+.meter-read-table > tbody > tr > th:first-child {
+    width: 30mm !important;
+}
+.meter-read-table > tbody > tr > td:first-child {
+    width: 30mm !important;
+}
